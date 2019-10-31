@@ -8,7 +8,7 @@ int main () {
 		cin>>a;
 		for(int i=1;i<=a;i++){
 			if(a % i == 0){
-				fact = a % i;
+				fact = a / i;
 				if(i==1){
 				cout<<"The Facors of "<<a<<" is: "<<endl;
 			}
