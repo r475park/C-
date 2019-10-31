@@ -12,7 +12,7 @@ int main () {
 		}
 		if(num>a){
 			b = a;
-		} else if(num <= b && num != a){
+		} else if(num >= b && num != a){
 			b = num;
 		}
 		if(num>a){
