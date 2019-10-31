@@ -5,7 +5,7 @@ int main() {
 	cout<<"Enter a number: : ";
 	cin>>num;
 	cout<<endl;
-	for(int i=1;i<num;i++){
+	for(int i=1;i=<num;i++){
 		factorial = factorial*i;
 	}
 	cout<<"The Factorial of "<<num<<" is: "<<factorial<<endl;
