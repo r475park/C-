@@ -6,7 +6,7 @@ int main () {
 	cin>>bin;
 	bin = cbin;
 	for(int i = 1;i<10;i++){
-		cbin = cbin / 10;
+		cbin = cbin % 10;
 		cout<<cbin;
 	}
 	return 0;
