@@ -25,5 +25,6 @@ int main () {
 	cout<<"Odd: "<<odd<<endl;
 	cout<<endl;
 	}
+	system("pause");
 	return 0;
 }
