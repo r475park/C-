@@ -9,5 +9,6 @@ int main() {
 		factorial = factorial*i;
 	}
 	cout<<"The Factorial of "<<num<<" is: "<<factorial<<endl;
+	system("pause");
 	return 0;
 }
