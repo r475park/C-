@@ -9,5 +9,6 @@ int main () {
 		cbin = cbin % 10;
 		cout<<cbin;
 	}
+	system("pause");
 	return 0;
 }
